@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("%d\n", !1);    // 0: NOT 1Àº °ÅÁþ
+    printf("%d\n", !0);    // 1: NOT 0Àº Âü
+
+    printf("%d\n", !3);    // 0: NOT 3Àº °ÅÁþ
+
+    return 0;
+}
